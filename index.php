@@ -15,22 +15,17 @@ require_once 'plus_and_minus.php';
 echo '<p>Задача 2 Возвращать из таблицы товаров хотя бы с одним ограничителем';
 cproducts::greet(80);
 
-
 echo '<p>Задача 3 Сортировка по дате создания (по убыванию)';
 sort_dec::greet();
-
 
 echo '<p>Задача 4 добавить кнопку скрыть';
 button_visible::greet();
 
-
 echo '<p> Задача 8 на вывод всех данных кроме скрытых';
 no_visible::greet();
 
-
 echo '<p> Задача 9 изменение данных с помщью + -';
 plus_and_minus::greet();
-
 ?>
 </body>
 </html>
